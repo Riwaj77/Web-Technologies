@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle</title>
+</head>
+<body>
+    <script>
+        function area(r){
+            pi=Math.PI;
+            areaa=pi*r*r;
+            return areaa;
+        }
+        let radius=parseInt(prompt("Enter radius:"))
+        console.log(typeof radius)
+        console.log("The area of a circle:",area(radius))
+
+        function Sphere(radius){
+        pi=Math.PI;
+        let volume = 4/3*pi*Math.pow(radius,3);
+        return volume;
+       }
+       r1 = prompt("enter the radius:");
+       console.log("the volume of a sphere", Sphere(r1))
+
+    </script>
+</body>
+</html>

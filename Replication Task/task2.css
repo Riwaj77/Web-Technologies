@@ -1,0 +1,40 @@
+.parent{
+    padding-top: 10px;
+    height: 790px;
+    width: 100%;
+    background-color:rgba(255,186,0,255);
+    color: black;
+}
+
+#h{
+    text-align: center;
+    padding-top: 2%;
+}
+.Card{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+
+.card1{
+    height: 400px;
+    width: 400px;
+
+}
+.card1:hover{
+    transform: scale(1.05);
+    transition-duration: .5s;
+}
+
+#card_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.card_detail{
+    text-align: center;
+
+}
+#card_parag{
+    font-size: 22px;
+}
